@@ -1,0 +1,18 @@
+.flex_contaner
+{
+    display: flex;
+    border: 2px solid gray;
+    height: 500px;
+    /* flex-wrap: wrap; */
+    flex-flow: row wrap;
+}
+
+.flex_items
+{
+    background-color: red;
+    border: 2px solid black;
+    margin: 10px;
+    width: 122px;
+    height: 122px;
+}
+

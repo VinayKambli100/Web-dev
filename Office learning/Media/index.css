@@ -1,0 +1,44 @@
+.box
+{   
+    font-size: 50px;
+    text-align: center;
+    display: none;
+}
+
+@media(max-width:400px)
+{
+    #box1
+    {
+        background-color: lightgrey;
+        display: block;
+    }
+}
+
+@media(min-width:401px) and (max-width:600px)
+{
+    #box2
+    {
+        background-color: lightblue;
+        display: block;
+    }
+}
+
+
+@media(min-width:601px) and (max-width:800px)
+{
+    #box3
+    {
+        background-color:lightgoldenrodyellow;
+        display: block;
+    }
+}
+
+
+@media(min-width:801px) and (max-width:1000px)
+{
+    #box4
+    {
+        background-color: lightcyan;
+        display: block;
+    }
+}
