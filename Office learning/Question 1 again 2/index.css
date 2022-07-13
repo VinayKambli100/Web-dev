@@ -1,0 +1,198 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar
+{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+    /* background-color: rgba(128, 128, 128, 0.466); */
+    background-color: #333333;
+    margin-bottom: 10px;
+}
+
+@media(max-width:538px)
+{
+    .navbar
+    {
+         display: flex; 
+        justify-content: space-evenly;
+        height: 100px;
+        /* background-color: rgba(128, 128, 128, 0.466); */
+        background-color: #333333;
+        margin-bottom: 10px;
+    }
+}
+
+.left_intro
+{
+    height: 50px;
+    margin-top: 20px;
+    color: white;
+}
+
+.right_link
+{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 50px;
+    margin-top: 18px;
+}
+
+.right_link a
+{
+    padding: 30px;
+    color: white;
+}
+
+/* main_div */
+
+/* main_topdiv_left */
+
+.main_div
+{
+    margin: 0px 140px;
+}
+
+@media(max-width:834px)
+{
+    .main_div
+    {
+        margin: 0px 50px;
+    }
+}
+
+.main_div_line_1
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.line_1_left
+{
+    background-color: #D3D3D3;
+    width: 368px;
+    height: 300px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 1186px)
+{
+    .line_1_left
+    {
+        background-color: #D3D3D3;
+        width: 535px;
+        height: 300px;
+        margin-right: 10px;
+        margin-bottom: 5px;
+    }
+}
+
+.line_1_right
+{
+    background-color: #333333;
+    /* width: 530px;
+    height: 300px; */
+    margin-bottom: 5px;
+}
+
+.line_1_right img
+{
+    width: 530px;
+}
+
+ .class_h3
+{
+   font-size: 50px; 
+   font-style: italic;
+   color: gray;
+}
+
+ .para
+{
+    font-size: 20px;
+    color: gray;
+}
+
+.readmore
+{
+    text-align: right;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.readmore a
+{
+    color: #EEBC1D;
+}
+
+/* main div line 2 */
+
+/* @media (max-width:834) */
+
+.main_div_line_2
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main_div_line_2 div
+{
+    width: 340px;
+    padding: 0px 20px 0px 0px;
+}
+
+.main_div_line_2 img
+{
+    float: left;
+}
+
+.fontcolor p 
+{
+    color: gray;
+}
+
+.fontcolor h3
+{
+    color: grey;
+}
+
+/* line_3 */
+
+.main_div_line_3
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.line3_1
+{
+    width: 257.75px;
+}
+
+.line3_1 img 
+{
+    width: 215px;
+    height: 150px;
+}
+
+/* footer */
+
+.footer
+{
+    
+    height: 50px;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
