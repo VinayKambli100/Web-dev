@@ -1,0 +1,130 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* ======================== H ================= */
+
+.headder
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: 	white;
+    width: 100%;
+    height: 60px; /* Headder height */
+}
+
+.headder_img
+{
+    width: 33%;
+}
+
+.headder_real_img
+{
+    width: 7.8%;
+}
+
+.headder_search_button
+{
+    width: 4%;
+    height: 20px;
+}
+
+/* ============================ I ======================= */
+
+.img_size_in_headder_button
+{
+    width: 70%;
+}
+
+.imgsize
+{
+    height: 200px;
+    width: 140px;
+}
+
+/* =============================== L ========================= */
+
+.link_in_headder a
+{
+    color: black;
+    padding: 10px;
+}
+
+.link_in_headder
+{
+    width: 33%;
+    text-align: right;
+}
+
+/* ========================================p========================== */
+.product_img
+{
+    /* border: solid; */
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+}
+
+.product_img_div
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+}
+
+.product_img_div img
+{
+    width: 70%;
+}
+
+.product_img_text
+{
+    text-align: center;
+}
+
+.product_img_top_text
+{
+    text-align: center;
+}
+
+/* ===================================== S ======================== */
+
+/* search_div */
+.search_div
+{
+    display: flex;
+    width: 33%;
+}
+
+.search_in_footer
+{
+    height: 20px;
+}
+
+.shop_div
+{
+    background: lightblue;
+    width: 100%;
+}
+
+.shop_con
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: white;
+    width: 33%;
+    /* height: 300px; */
+    /* height: 100%; */
+    margin: 50px 20px;
+}
+
+.shop_box
+{
+    display: flex;
+    justify-content: center;
+}
