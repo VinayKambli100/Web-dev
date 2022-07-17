@@ -5,10 +5,40 @@
     margin: 0px;
 }
 
+/* ============================== A ================== */
+
+
+/* ============================ C ================== */
+
+.contactus_hedder
+{
+    text-align: center;
+    font-size: 3em;
+}
+
+/* ============================== F ======================= */
+
+.form_class
+{
+    font-size: 1.2rem;
+}
+
+.address_and_form_div
+{
+    border: solid;
+}
+
+#feedback_id
+{
+    width: 20em;
+    height: 10em;
+}
+
 /* ======================== H ================= */
 
 .headder
 {
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -127,4 +157,26 @@
 {
     display: flex;
     justify-content: center;
+}
+
+
+/* ============================= T ======================= */
+
+.table
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.address_th, .feedback_th
+{
+    border: solid;
+    width: 50%;
+}
+
+#Textarea_id
+{
+    width: 100%;
+    height: 10rem;
 }
