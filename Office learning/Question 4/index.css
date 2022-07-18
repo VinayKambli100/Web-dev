@@ -31,14 +31,34 @@
 #feedback_id
 {
     width: 20em;
-    height: 10em;
+    height: 3em;
 }
 
+.footer_desine a
+{
+    display: block;
+    margin: 0.5em;
+    color: black;
+}
+
+.footer
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: 	#333333;
+    margin-top: 1em;
+    padding: 1em;
+}
+
+.footer_end
+{
+    text-align: center;
+    background-color: 	#333333;
+}
 /* ======================== H ================= */
 
 .headder
 {
-    position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -159,6 +179,12 @@
     justify-content: center;
 }
 
+#sumbit_button
+{
+    margin-left: 50%;
+    padding: 0.5rem;
+}
+
 
 /* ============================= T ======================= */
 
@@ -177,6 +203,7 @@
 
 #Textarea_id
 {
-    width: 100%;
-    height: 10rem;
+    width: 90%;
+    height: 6rem;
+    margin: auto 5%;
 }
