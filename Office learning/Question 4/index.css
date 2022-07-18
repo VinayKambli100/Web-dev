@@ -55,10 +55,18 @@
     text-align: center;
     background-color: 	#333333;
 }
+
+.footer_follow_us a
+{
+    margin: 0.5em;
+    color: black;
+}
 /* ======================== H ================= */
 
 .headder
 {
+    position: sticky;
+    top: 1px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -90,11 +98,11 @@
     width: 70%;
 }
 
-.imgsize
+/* .imgsize
 {
-    height: 200px;
     width: 140px;
-}
+    height: 200px;
+} */
 
 /* =============================== L ========================= */
 
@@ -165,7 +173,8 @@
 .shop_con
 {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
     background-color: white;
     width: 33%;
     /* height: 300px; */
