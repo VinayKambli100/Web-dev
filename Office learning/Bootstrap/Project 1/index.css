@@ -1,0 +1,79 @@
+
+:root
+{
+    --purple:#800080;
+}
+
+/* ===================================== B ========================= */
+
+/* .bottom_header
+{
+    padding-top: 240px;
+} */
+
+
+
+/* ================================= D =========================== */
+.display-1
+{
+    font-family: 'Roboto Slab', serif;
+    color: white;
+}
+
+.display-1 span
+{
+    color: yellow;
+}
+
+.buttons .btn-warning
+{
+    color: white;
+}
+
+.buttons .btn-warning:hover
+{
+    background-color:var(--purple);
+    border: var(--purple);
+    color: white;
+}
+
+.buttons .btn-outline
+{
+    border: 2px solid white;
+    color: white;
+    background-color: rgba( 0, 0, 0, .2 );
+}
+
+.buttons .btn-outline:hover
+{
+    border: 2px solid white;
+    color: white;
+}
+/* ===================================== N =============================== */
+
+.navbar
+{
+    width: 100%;
+    background-image:url(https://colorlibhub.com/illdy/wp-content/themes/illdy/layout/images/front-page/front-page-header.jpg);
+    background-attachment: fixed;
+    background-size: 1366px auto;
+}
+
+/* ============================================ T ================================= */
+
+.top_navbar a:hover
+{
+    color: yellow;
+}
+
+.topheader
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.top_navbar a
+{
+    color: white;
+}
