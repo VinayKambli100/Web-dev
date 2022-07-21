@@ -1,4 +1,10 @@
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root
 {
     --purple:#800080;
@@ -6,23 +12,10 @@
 
 /* ===================================== B ========================= */
 
-/* .bottom_header
+.backgroundimg
 {
-    padding-top: 240px;
-} */
-
-
-
-/* ================================= D =========================== */
-.display-1
-{
-    font-family: 'Roboto Slab', serif;
-    color: white;
-}
-
-.display-1 span
-{
-    color: yellow;
+    background-image: url(https://colorlibhub.com/illdy/wp-content/themes/illdy/layout/images/testiomnials-background.jpg);
+    background-attachment: fixed;
 }
 
 .buttons .btn-warning
@@ -49,6 +42,38 @@
     border: 2px solid white;
     color: white;
 }
+
+.blog1_img
+{
+    
+}
+/* ================================= D =========================== */
+.display-1
+{
+    font-family: 'Roboto Slab', serif;
+    color: white;
+}
+
+.display-1 span
+{
+    color: yellow;
+}
+
+/* ========================================== I ============================ */
+
+.info
+{
+    color: white;
+}
+
+/* ======================================= L =============================== */
+
+.latest_news
+{
+    background-color: #454545;
+    color: white;
+}
+
 /* ===================================== N =============================== */
 
 .navbar
@@ -77,3 +102,5 @@
 {
     color: white;
 }
+
+
