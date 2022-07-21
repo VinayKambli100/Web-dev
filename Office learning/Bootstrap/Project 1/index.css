@@ -43,9 +43,15 @@
     color: white;
 }
 
-.blog1_img
+.blog_contaner
 {
-    
+    background-color: #454545;
+}
+
+.blog_heading:hover
+{
+    color: #FFD700;
+    cursor: pointer;
 }
 /* ================================= D =========================== */
 .display-1
@@ -57,6 +63,12 @@
 .display-1 span
 {
     color: yellow;
+}
+
+.blog_background
+{
+    background-color: white;
+    color: gray;
 }
 
 /* ========================================== I ============================ */
@@ -83,6 +95,15 @@
     background-attachment: fixed;
     background-size: 1366px auto;
 }
+/* ================================================ P ============================ */
+
+.Project_clints_coffes
+{
+    background-image: url(https://colorlibhub.com/illdy/wp-content/themes/illdy/layout/images/front-page/front-page-counter.jpg);
+    background-attachment: fixed;
+    background-size: 1366px auto;
+}
+
 
 /* ============================================ T ================================= */
 
