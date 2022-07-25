@@ -1,0 +1,16 @@
+.circle
+{
+    height: 5rem;
+    width: 5rem;
+    background-color: black;
+    border-radius: 50%;
+    display: block;
+    margin: auto 0;
+}
+
+.circle-parents
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
