@@ -1,0 +1,12 @@
+#button
+{
+    padding: 1em 2em 1em 2em;
+    border: none;
+    background-color: red;
+    color: white;
+}
+
+#button:hover
+{
+    background-color: rgb(116, 30, 255);
+}

@@ -1,0 +1,23 @@
+.contant
+{
+    text-align: center;
+}
+
+.btn_desing
+{
+    border: none;
+    background-color: darkred;
+    padding: 20px 50px 20px 50px;
+    color: white;
+}
+
+.btn_desing:hover
+{
+    background-color: blue;
+}
+
+#entries
+{
+    font-size: large;
+    font-weight: bold;
+}
