@@ -49,4 +49,5 @@ function randomfunction()
     var elements = document.getElementById("body_ele")
     elements.classList.remove("blue","red","yellow","green");
     elements.classList.add(string[test])
+    console.log(string)
 }
