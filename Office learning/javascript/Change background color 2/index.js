@@ -1,3 +1,5 @@
+var string = ["blue","red","yellow","green"]
+
 var blue_btn = document.getElementById("blue-btn");
 blue_btn.addEventListener("click",bluefunction);
 
@@ -10,28 +12,41 @@ yellow_btn.addEventListener("click",yellowfunction)
 var green_btn = document.getElementById("green-btn");
 green_btn.addEventListener("click",greenfunction);
 
+var random_btn = document.getElementById("random");
+random_btn.addEventListener("click",randomfunction);
 
 function bluefunction()
 {
     var elements = document.getElementById("body_ele");
+    elements.classList.remove("blue","red","yellow","green");
     elements.classList.add("blue");
-    elements.classList.remove("red");
 }
 
 function redfunction()
 {
     var elements = document.getElementById("body_ele");
+    elements.classList.remove("blue","red","yellow","green");
     elements.classList.add("red");
 }
 
 function yellowfunction()
 {
     var elements = document.getElementById("body_ele");
+    elements.classList.remove("blue","red","yellow","green");
     elements.classList.add("yellow");
 }
 
 function greenfunction()
 {
     var elements = document.getElementById("body_ele");
+    elements.classList.remove("blue","red","yellow","green");
     elements.classList.add("green");
+}
+
+function randomfunction()
+{
+    var test = Math.floor(Math.random() * 4);
+    var elements = document.getElementById("body_ele")
+    elements.classList.remove("blue","red","yellow","green");
+    elements.classList.add(string[test])
 }
