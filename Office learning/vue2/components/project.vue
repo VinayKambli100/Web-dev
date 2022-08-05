@@ -5,15 +5,16 @@
     <input type="text" v-model="lastname">
     <br>
     <button @click="getdata()"> sumbit </button>
-    <button> reset </button>
+    <button @click="resetdata()"> reset </button>
     <div >
         <table class="table">
             <tr v-for="(data,index) in arr" v-bind:key="index">
             <td class="border">{{data.fname}} </td>
             <td class="border">{{data.lname}}</td>
-            {{index}}
-            <td class="border"> <button>edit</button> </td>
+            <td class="border"> <button @click="editetable(index)">edit</button> </td>
+            <td class="border"><button @click="updatetable(index)">update</button></td>
             <td class="border"><button @click="removetable(index)">delete</button></td>
+
         </tr>
         
         </table>
@@ -52,7 +53,24 @@ export default {
        removetable(index)
        {
             this.arr.splice(index,1)
-       }
+       },
+       resetdata()
+       {    
+            this.make_null_value()
+            // this.arr.splice(this.arr)
+       },
+       editetable(index)
+       {
+            this.firstname=this.arr[index].fname;
+            this.lastname=this.arr[index].lname;
+
+       },
+       updatetable(index)
+       {
+            this.arr[index].fname =this.firstname;
+            this.arr[index].lname = this.lastname;
+
+       },
     }
     
 }
@@ -66,7 +84,7 @@ export default {
     }
     .table
     {
-        border: solid 5px;
+        border: solid 1px;
         margin-left: auto;
         margin-right: auto;
     }
